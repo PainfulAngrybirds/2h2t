@@ -1,24 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.red{
-    width: 6.25%;
-    height: 100%;
-    background-color: red;
-}
-.green{
-    width: 6.25%;
-    height: 100%;
-    background-color: purple;
-}
-.blue{
-    width: 6.25%;
-    height: 100%;
-    background-color: orange;
-}
-.linha{
+
+.menu {
     width: 100%;
-    height: 10%;
-    display: flex;
+    height: 60px;
+    background-color: #093f0b;
+    color: white;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .menu {
+        height: 100px;
+        background-color: #229b26;
+        color: white;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:1280px){
+    .menu {
+        height: 150px;
+        background-color: #8eff92;
+        color: black;
+        font-size: 100px;
+    }
 }

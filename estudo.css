@@ -1,0 +1,51 @@
+
+.preto {
+  
+    background-color: black;
+    color: white;   
+    grid-area: preto;
+    height: 25vh;
+}
+
+.verdeC {
+    background-color: rgb(123, 226, 103);
+    grid-area: verdeC;
+    height: 50vh;
+}
+
+.verdeA {
+    background-color: rgb(77, 248, 211);
+    grid-area: verdeA;
+    height: 25vh;
+}
+
+.verde {
+  
+    background-color: green;
+    grid-area: verde;
+    height: 25vh;
+}
+
+.branco {
+  
+    background-color: rgb(224, 218, 218);
+    grid-area: branco;
+    height: 25vh;
+}
+
+.cinza {
+   
+    background-color: gray;
+    grid-area: cinza;
+    height: 50vh;
+}
+
+.site {
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-areas:
+    "branco branco branco" 
+    "verdeC cinza verde"
+    "verdeC cinza verdeA"
+    "preto preto preto";
+}

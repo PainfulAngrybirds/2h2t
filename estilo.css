@@ -139,11 +139,13 @@ ul {
     .hamb{
         display: none;
     }
+    #erer {
+        text-decoration: underline;
+    }
+    
 
 }
 
 @media screen and (min-width:1028px) {
-    .menu {
-        
-    }
+  
 }

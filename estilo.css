@@ -118,6 +118,13 @@ ul {
     display: none;
 }
 
+div[class^="item-"]{
+    background-color: rgb(18, 66, 40);
+    padding: 2px;
+    width: calc(100vw - 4px);
+    height: 50vh;
+    margin: 2px;
+}
 
 @media screen and (min-width:820px) {
     .nav {
